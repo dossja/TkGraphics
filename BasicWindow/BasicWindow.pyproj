@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8d39af8d-24c0-4329-a599-6813dff25f0d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>BasicWindow.py</StartupFile>
+    <StartupFile>8.MoreComplicatedWindow.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,31 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="BasicWindow.py" />
+    <Compile Include="0.BasicWindow.py" />
+    <Compile Include="1.LessBasicWindow.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="2.LeastBasicWindow.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="3.GridLayout.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4.FunctionsWithGUI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5.Classes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="6.DDMenu.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="7.MessageBox.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="8.MoreComplicatedWindow.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
